@@ -3,15 +3,13 @@ using namespace std ;
 void printnum(int n){
   cout<< n << endl ;
 }
-void dispalynum(int n1, float n2){
+void displaynum(int n1, float n2){
   cout << "The integer number is" << n1 << endl ;
   cout << "The Double number is " << n2 << endl ;
 }
-int add (int n3, int n4 ){
-  cin >> n3 >> n4 ;
- return(n3+n4) ;
-  // The value of add becomes n3+n4 by using the return
-}
+int add (int,int) ;
+ // We can initiate the function here and then define it later also
+
 int main (){
   int a,b ;
   cin >> a ;
@@ -32,3 +30,10 @@ int main (){
     // It is very important that all the functions we wish to assign are on the right hand side and not on the left hand side 
     cout << sum << endl ;
 }
+
+}
+int add (int n3, int n4 ){
+  cin >> n3 >> n4 ;
+ return(n3+n4) ;
+  // The value of add becomes n3+n4 by using the return
+}  
