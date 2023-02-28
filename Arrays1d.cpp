@@ -11,5 +11,6 @@ int main(){
         cout << array[i]<<"," ;
     }
 // This is the preliminary program to take 10 inputs store them in an array and then print the inputs 
+    cout <<"Hello" << endl ;
 
 }
